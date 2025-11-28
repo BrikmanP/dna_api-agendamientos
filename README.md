@@ -21,6 +21,7 @@ En la raíz:
 - `consultas.sql` → Consultas MySQL pedidas en la prueba  
 - `git_respuestas.txt` → Comandos Git solicitados  
 - `analisis_tecnico.md` → Diagnóstico de lentitud
+- README.md
 
 > Nota: La carpeta `src/test/` contiene scripts de prueba (Postman / scripts PHP) que **no se suben al PR**.
 
