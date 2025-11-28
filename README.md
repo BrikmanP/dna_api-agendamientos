@@ -92,9 +92,24 @@ En la raíz:
 
 ## 🗃️ Comandos Git utilizados
 
+Para subir los cambios completos a GitHub se ejecutaron los siguientes pasos:
+
 ```bash
-git checkout -b feature/mejora-agendamientos
-git add .
-git commit -m "Actualizar front con filtros y ordenar por ID en usuarios_dummy"
-git push -u origin feature/mejora-agendamientos
+# Inicializar un repositorio Git en la carpeta local
+git init
+
+# Agregar todos los archivos del proyecto (excepto los de prueba en src/test/)
+git add src/logica.php src/api_agendamientos.php src/modelo.php src/controlador.php src/api.php src/conexion.php src/assets index.php consultas.sql git_respuestas.txt analisis_tecnico.md README.md
+
+# Confirmar los cambios con un mensaje de commit
+git commit -m "Entrega prueba técnica completa: MVC, API, frontend y documentación"
+
+# Cambiar el nombre de la rama principal a 'main'
+git branch -M main
+
+# Conectar el repositorio local con el remoto en GitHub
+git remote add origin https://github.com/BrikmanP/dna_api-agendamientos.git
+
+# Subir los cambios al repositorio remoto
+git push -u origin main
 
