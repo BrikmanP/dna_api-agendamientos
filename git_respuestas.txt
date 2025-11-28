@@ -1,0 +1,16 @@
+1. Comando para crear la rama feature/mejora-agendamientos
+git checkout -b feature/mejora-agendamientos
+
+2. Comando de commit con mensaje explicativo
+git commit -m "Implementación del módulo de agendamientos: API, lógica, MVC y consumo de API externa"
+
+3. Comando para subir la rama al repositorio remoto
+git push -u origin feature/mejora-agendamientos
+
+4. Proceso para crear un Pull Request
+- Ir al repositorio remoto (GitHub, GitLab o Bitbucket).
+- Seleccionar la rama feature/mejora-agendamientos.
+- Hacer clic en “Compare & Pull Request”.
+- Añadir una breve descripción del cambio y su propósito.
+- Confirmar el PR seleccionando la rama destino (por lo general, main o develop).
+- Enviar el Pull Request para revisión.
